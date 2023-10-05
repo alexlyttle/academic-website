@@ -2599,6 +2599,9 @@ input, select, textarea {
 		justify-content: space-between;
 		background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 		background-size: 400% 400%;
+		-moz-animation: gradient 15s ease infinite;
+		-webkit-animation: gradient 15s ease infinite;
+		-ms-animation: gradient 15s ease infinite;
 		animation: gradient 15s ease infinite;
 		height: 100%;
 		left: 0;
@@ -2607,7 +2610,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
-		-moz-webkit-transition: .5s ease-in-out;
+		-moz-transition: .5s ease-in-out;
 		-webkit-transition: .5s ease-in-out;
 		-ms-transition: .5s ease-in-out;
 		transition: .5s ease-in-out;
@@ -2708,7 +2711,7 @@ input, select, textarea {
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
-		-moz-webkit-transition: .5s ease-in-out;
+		-moz-transition: .5s ease-in-out;
 		-webkit-transition: .5s ease-in-out;
 		-ms-transition: .5s ease-in-out;
 		transition: .5s ease-in-out;
@@ -3113,6 +3116,9 @@ input, select, textarea {
 			#footer {
 				background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 				/* background-size: 400% 400%; */
+				-moz-animation: gradient 15s ease infinite;
+				-webkit-animation: gradient 15s ease infinite;
+				-ms-animation: gradient 15s ease infinite;
 				animation: gradient 15s ease infinite;
 				bottom: auto;
 				left: auto;
@@ -3262,7 +3268,7 @@ input, select, textarea {
 		}
 
 		#main, #header {
-			-moz-webkit-transition: none;
+			-moz-transition: none;
 			-webkit-transition: none;
 			-ms-transition: none;
 			transition: none;
