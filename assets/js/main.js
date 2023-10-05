@@ -93,12 +93,25 @@
 
 			}
 
-	// Main Sections: Two.
+	// Main Sections: Publications, People.
 
 		// Lightbox gallery.
 			$window.on('load', function() {
 
-				$('#two').poptrox({
+				$('#publications').poptrox({
+					caption: function($a) { return $a.next('h3').text(); },
+					overlayColor: '#2c2c2c',
+					overlayOpacity: 0.85,
+					popupCloserText: '',
+					popupLoaderText: '',
+					selector: '.work-item a.image',
+					usePopupCaption: true,
+					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
+					usePopupNav: true,
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+				});
+				$('#people').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
