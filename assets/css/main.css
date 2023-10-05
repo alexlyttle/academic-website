@@ -2478,7 +2478,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
+			background-color: rgba(231, 60, 126, 0.1);
 			border-color: var(--accent-color);
 			color: var(--accent-color) !important;
 		}
@@ -2669,17 +2669,24 @@ input, select, textarea {
 
 
 /* Footer */
+	
+	#footer {
+		color: rgba(255, 255, 255, 0.4);
+	}
+	
+	#footer a {
+		color: inherit;
+	}
+
+	#footer a:hover {
+		color: var(--background-color) !important;
+	}
 
 	#footer .icons {
 		margin: 1em 0 0 0;
 	}
 
-		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
-		}
-
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -3115,7 +3122,7 @@ input, select, textarea {
 
 			#footer {
 				background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-				/* background-size: 400% 400%; */
+				background-size: 400% 400%;
 				-moz-animation: gradient 15s ease infinite;
 				-webkit-animation: gradient 15s ease infinite;
 				-ms-animation: gradient 15s ease infinite;
