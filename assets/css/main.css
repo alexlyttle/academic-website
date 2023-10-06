@@ -2610,10 +2610,11 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
-		-moz-transition: .5s ease-in-out;
+		/* Smooth transition on window resize */
+		/* -moz-transition: .5s ease-in-out;
 		-webkit-transition: .5s ease-in-out;
 		-ms-transition: .5s ease-in-out;
-		transition: .5s ease-in-out;
+		transition: .5s ease-in-out; */
 		z-index: 1000;  /* Ensure header is always displayed on top */
 	}
 
@@ -2718,10 +2719,11 @@ input, select, textarea {
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
-		-moz-transition: .5s ease-in-out;
+		/* Smooth transition on window resize */
+		/* -moz-transition: .5s ease-in-out;
 		-webkit-transition: .5s ease-in-out;
 		-ms-transition: .5s ease-in-out;
-		transition: .5s ease-in-out;
+		transition: .5s ease-in-out; */
 	}
 
 		#main > section {
